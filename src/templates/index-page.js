@@ -90,7 +90,7 @@ Friday-Saturday: 4am-10pm</p>
                         <p><strong>Available from 10:00 AM to 8:00 PM</strong></p>
                       </div>
                       <div className="column is-6">
-                      <img className="custom-image" src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>
+                      <img className="custom-image" src="https://heroic-crisp-fe6d89.netlify.app/img/hot_case_menu.png"></img>
                       </div>
                       <div id="hot-bar"></div>
                     </div>

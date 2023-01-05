@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
+import facebook from "../img/social/facebook.svg";
+import instagram from "../img/social/instagram.svg";
 import logo from "../img/deharts_logo_round.png";
 
 const Navbar = class extends React.Component {
@@ -74,6 +76,24 @@ const Navbar = class extends React.Component {
                 Hot Bar
               </Link>
               </div>
+              <p className="navbar-item">
+                <p className="footer-social"><a title="facebook" href="https://www.facebook.com/deharts.store" target="_blank">
+                    <img
+                      src={facebook}
+                      alt="Facebook"
+                      style={{ width: "2em", height: "2em" }}
+                      className="social-facebook"
+                    />
+                  </a>
+                  <a title="instagram" href="https://www.instagram.com/dehartsaukebaystore/" target="_blank">
+                    <img
+                      src={instagram}
+                      alt="Instagram"
+                      style={{ width: "2em", height: "2em" }}
+                    />
+                  </a>
+                  </p>
+                  </p>
               {/*<Link className="navbar-item" to="/contact">
                 Contact
               </Link>

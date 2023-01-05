@@ -23,14 +23,23 @@ const Footer = class extends React.Component {
             <p className="footer-phone" style={{}}><strong>Phone</strong><br/> (907) 789-7342</p>
             <p className="footer-hours" style={{}}><strong>Winter Hours</strong><br/>  Sunday-Thursday: 4am-9pm<br/>
 Friday-Saturday: 4am-10pm</p>
-            {/* <a title="facebook" href="https://www.facebook.com/profile.php?id=145070852179854">
+            <p className="footer-social"><a title="facebook" href="https://www.facebook.com/deharts.store" target="_blank">
                   <img
                     src={facebook}
                     alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
+                    style={{ width: "2em", height: "2em" }}
+                    className="social-facebook"
                   />
                 </a>
-               <a title="twitter" href="https://twitter.com">
+                <a title="instagram" href="https://www.instagram.com/dehartsaukebaystore/" target="_blank">
+                  <img
+                    src={instagram}
+                    alt="Instagram"
+                    style={{ width: "2em", height: "2em" }}
+                  />
+                </a>
+                </p>
+                {/*<a title="twitter" href="https://twitter.com">
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -38,13 +47,7 @@ Friday-Saturday: 4am-10pm</p>
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
+                
                 <a title="vimeo" href="https://vimeo.com">
                   <img
                     src={vimeo}
