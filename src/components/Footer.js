@@ -21,8 +21,11 @@ const Footer = class extends React.Component {
               />
             <p className="footer-address" style={{}}><strong>Address</strong><br/><a href="https://www.google.com/maps/dir//De+Hart's+Auke+Bay+Store+11735+Glacier+Hwy+Juneau,+AK+99801/@58.3862172,-134.6448333,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x54011df160e66eb5:0x897de458f5971ab1">11735 Glacier Hwy, Juneau, AK 99801</a></p>
             <p className="footer-phone" style={{}}><strong>Phone</strong><br/> (907) 789-7342</p>
-            <p className="footer-hours" style={{}}><strong>Winter Hours</strong><br/>  Sunday-Thursday: 4am-9pm<br/>
-Friday-Saturday: 4am-10pm</p>
+            <p className="footer-hours" style={{}}><strong>Hours</strong><br/> 
+            Sunday-Saturday 6am-8pm<br/>
+                          Liquor 8am-8pm<br/>
+                          Deli 6am-730pm<br/>
+            </p>
             <p className="footer-social"><a title="facebook" href="https://www.facebook.com/deharts.store" target="_blank">
                   <img
                     src={facebook}

@@ -54,8 +54,11 @@ export const IndexPageTemplate = ({
                         </h3>
                         <p><strong>Address:</strong><br/>11735 Glacier Hwy, Juneau, AK 99801</p>
                         <p><strong>Phone:</strong><br/>(907) 789-7342</p>
-                        <p><strong>Winter Hours:</strong><br/> Sunday-Thursday:  4am-9pm<br/>
-Friday-Saturday: 4am-10pm</p>
+                        <p><strong>Hours:</strong><br/>
+                          Sunday-Saturday 6am-8pm<br/>
+                          Liquor 8am-8pm<br/>
+                          Deli 6am-730pm<br/>
+                          </p>
                       </div>
                       <div className="column is-6">
                         <iframe style={{borderRadius: "25px", border: "2px solid #363636"}} title="location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.425971267845!2d-134.6470273477049!3d58.386217181247325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54011df160e66eb5%3A0x897de458f5971ab1!2sDe%20Hart&#39;s%20Auke%20Bay%20Store!5e0!3m2!1sen!2sus!4v1661959932165!5m2!1sen!2sus" width="100%" height="450" styles="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
